@@ -10,4 +10,4 @@ def get_norse_name():
     norse_list = []
     for name in norse_names:
         norse_list.append(name.text)
-    print(random.choice(norse_list))
+    return random.choice(norse_list)
